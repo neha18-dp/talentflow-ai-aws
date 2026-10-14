@@ -1,4 +1,4 @@
-const API_BASE = window.TALENTFLOW_API_BASE || 'http://127.0.0.1:5000';
+const API_BASE = window.TALENTFLOW_API_BASE || 'http://16.4.37.55:5000';
 const SESSION_KEY = 'talentflow_ai_session';
 const SETTINGS_KEY = 'talentflow_ai_settings';
 

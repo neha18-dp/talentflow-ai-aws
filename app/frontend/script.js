@@ -1535,27 +1535,13 @@ function scheduleInterview() {
       }
 
       const interview = {
-
-        candidate:
-          candidate.name,
-
-        role:
-          candidate.role,
-
-        date:
-          $('intDate').value,
-
-        time:
-          $('intTime').value,
-
-        interviewer:
-          $('intInterviewer').value,
-
-        status:
-          'Scheduled',
-
-        link:
-          'https://meet.google.com/'
+        candidate: candidate.name,
+        role: candidate.position,
+        date: $('intDate').value,
+        time: $('intTime').value,
+        interviewer: $('intInterviewer').value,
+        status: 'Scheduled',
+        link: 'https://meet.google.com/'
       };
 
       try {
